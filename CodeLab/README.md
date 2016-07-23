@@ -129,3 +129,25 @@ import { pushPath } from '...'; // this.props
 this.moveToUser = this.moveToUser(this) // this 바인딩
 
 this.refs.* // input ref
+
+### LAB02d
+
+{ key } // = { key: key } // ES6
+
+import $ from 'jquery';
+
+
+### LAB03
+
+ducks
+
+action
+actionCreator
+reducer
+
+...state // spread; ES6
+
+export default function ... // import 시 default 만 가져옴
+
+
+
