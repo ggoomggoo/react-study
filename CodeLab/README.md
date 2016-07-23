@@ -1,16 +1,27 @@
-# react
+# CodeLab
+* React를 이용한 웹 서비스 개발하기
+* One-day CodeLab with webFrameworks.kr
+* 2016. 07. 23
+* 이성규 강사님
 
 ## 교육소개
 * http://onoffmix.com/event/72541
-* One-day CodeLab with webFrameworks.kr
 
 ## 링크
 * https://github.com/reactjs/react-tutorial
 * https://github.com/shalomeir/snippod-starter-demo-app
 * https://github.com/shalomeir/snippod-starter-demo-app-front
 * https://github.com/shalomeir/snippod-starter-demo-app-server
+* React CodeLab 개발환경 설정 가이드.pdf
+* ReactJS_CodeLab_160723.pdf
 
 ## 선수지식
+* nodejs
+* npm
+* ES6
+* webpack
+* babel
+* eslint
 
 ## 진행과정
 
@@ -36,7 +47,7 @@ JSX
 
 ### LAB01a
 
-jslint // 에어비앤비
+eslint // airbnb
 
 ### LAB01b
 
@@ -75,5 +86,46 @@ Card 에 있는속성들을 App으로 이동
 
 ES6 // const
 
+###
 
 
+### LAB02
+
+app.js - {this.props.children}
+radium // style lib
+react-helmet // prefix title lib
+
+### LAB02a
+
+react-router // lib
+router
+App.js
+clidren
+
+/src/containers // 개별 react 모듈
+/src/layout // 공통 react 모듈
+
+LINK // react-router lib
+
+### LAB02b
+
+/user/:userId 추가
+
+this.props.params
+this.location.pathname
+this.location.query
+
+const { params } = this.props; // ES6 분할할당
+
+### LAB02c
+
+pushPath()
+pushQuery()
+
+react-redux // lib
+import { pushPath } from '...'; // this.props
+@connect
+
+this.moveToUser = this.moveToUser(this) // this 바인딩
+
+this.refs.* // input ref
