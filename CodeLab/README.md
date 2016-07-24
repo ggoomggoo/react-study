@@ -1,30 +1,46 @@
-# CodeLab
-* React를 이용한 웹 서비스 개발하기
-* One-day CodeLab with webFrameworks.kr
-* 2016. 07. 23
-* 이성규 강사님
+# React를 이용한 웹 서비스 개발하기
 
-## 교육소개
+* One-day CodeLab with webFrameworks.kr
 * http://onoffmix.com/event/72541
+* @WePlanet
+* @Snippod @이성규
+* @2016. 07. 23
+
+---
+
 
 ## 링크
+
 * https://github.com/reactjs/react-tutorial
 * https://github.com/shalomeir/snippod-starter-demo-app
 * https://github.com/shalomeir/snippod-starter-demo-app-front
 * https://github.com/shalomeir/snippod-starter-demo-app-server
-* React CodeLab 개발환경 설정 가이드.pdf
-* ReactJS_CodeLab_160723.pdf
+* [코드랩 4-1회차 영상 (ReactJS)](http://wepla.net/?p=1573)
+* [코드랩 4-2회차 영상 (ReactJS)](#)
+
+## 파일
+
+* [React CodeLab 개발환경 설정 가이드.pdf](https://docs.google.com/document/d/1PPooko0uzUanYZMwKrEUXUWMD3FXCarKhVxGq5_Kip0/edit?pref=2&pli=1)
+* [ReactJS_CodeLab_160723.pdf](https://drive.google.com/file/d/0B9ltVFRI_UMiTjdNYzc5UklQTVU/view?pref=2&pli=1)
+* [React 참고할만한 자료 모음.docx](https://docs.google.com/document/d/1Rc6ZUQp6kYx6SBPaemo0vP290lBf1nYelErsP2GDgL8/edit?pref=2&pli=1)
 
 ## 선수지식
+
 * nodejs
 * npm
 * ES6
 * webpack
-* babel
-* eslint
+
+## 추가
+
+- pro-react
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-ntp-icon)
+- git tag
+- babel
+- eslint
+- Semantic UI
 
 ## 진행과정
-
 
 ### 디렉토리 구조 분석
 /semantic/src
@@ -148,6 +164,4 @@ reducer
 ...state // spread; ES6
 
 export default function ... // import 시 default 만 가져옴
-
-
 

@@ -1,0 +1,73 @@
+Microsoft Windows [Version 10.0.10586]
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH
+> cd C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+>
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+>
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> checkout -f LAB01a
+'checkout'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB01a
+Checking out files: 100% (590/590), done.
+Note: checking out 'LAB01a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5927e1d... add Card component
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB01b
+Previous HEAD position was 5927e1d... add Card component
+HEAD is now at 4a26cd4... add Cards and props, state change
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB01c
+Previous HEAD position was 4a26cd4... add Cards and props, state change
+HEAD is now at fb3017e... update Card and App for component LifeCycle
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB02a
+Previous HEAD position was fb3017e... update Card and App for component LifeCycle
+HEAD is now at fef7b8a... add new page Setting and link button to NavBar
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB02b
+Previous HEAD position was fef7b8a... add new page Setting and link button to NavBar
+HEAD is now at 3a91243... add User Screen
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB02c
+Previous HEAD position was 3a91243... add User Screen
+HEAD is now at 7df62d0... add application history utils and inject redux connection to Home.js
+
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB02d
+Previous HEAD position was 7df62d0... add application history utils and inject redux connection to Home.js
+HEAD is now at bf97bb5... add PostsSortingDropdown and url query handing
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB03a
+Previous HEAD position was bf97bb5... add PostsSortingDropdown and url query handing
+HEAD is now at c23c87c... create actionCreator and reducer
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+> git checkout -f LAB03b
+Previous HEAD position was c23c87c... create actionCreator and reducer
+HEAD is now at 1fce998... connect application state to App.js and popup Dialog Window
+
+U35S-CHH@DESKTOP-15NUFKD C:\Users\U35S-CHH\git\snippod-starter-demo-app-front2
+>
